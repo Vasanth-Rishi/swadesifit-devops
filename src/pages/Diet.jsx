@@ -16,7 +16,7 @@ export default function Diet() {
     }
 
     try {
-      const res = await fetch("http://localhost:5000/diet", {
+      const res = await fetch("https://swadesi-backend.onrender.com/diet", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
